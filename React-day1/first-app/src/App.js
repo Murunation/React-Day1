@@ -20,7 +20,7 @@ function App() {
   // }
   const customStyle = {
     color: word[0] == "Legendary" ? "#2ecc71" : "red",
-    fontSize: word[0] == "Legendary" ? "70px" : "40px",
+    fontSize: word[0] == "Legendary" ? "70px" : "40px", //Ternary operator
   };
 
   // function greetingBro(name) {
