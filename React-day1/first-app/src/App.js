@@ -1,27 +1,22 @@
 import logo from "./logo.svg";
 import "./App.css";
-
+import Header from "./component/Header";
+import Footer from "./component/Footer";
+import Main from "./component/main/Main";
 function App() {
-  function clickHandler() {
-    console.log("Hi"); ///function bichij bolno
-  }
+  // function clickHandler() {
+  //   console.log("Hi"); ///function bichij bolno
+  // }
 
-  const name = "Legendary Murun";
   // function welcomeMes() {
   //   return `zaaza ${name}`;
   // }
-  const myName = "Murun";
-  const word = name.split(" ");
   // function changing(name) {
   //   if (word[0] == "Legendary") {
   //     return;
   //   }
   //   return <h1 style={styleNah}>Nahh ! {myName}</h1>;  //version one
   // }
-  const customStyle = {
-    color: word[0] == "Legendary" ? "#2ecc71" : "red",
-    fontSize: word[0] == "Legendary" ? "70px" : "40px", //Ternary operator
-  };
 
   // function greetingBro(name) {
   //   if (name !== undefined) {
@@ -29,13 +24,12 @@ function App() {
   //   }
   //   return <h1 style={customStyle}>Hello, Stranger</h1>; //version one
   // }
-  const title = <h1 style={customStyle}>{name}</h1>; //curly
+  // const title = <h1 style={customStyle}>{name}</h1>; //curly
   return (
     <div className="App">
-      <header className="App-header">
-        <h1 style={customStyle}>Great job! {myName}</h1>
-        <button onClick={clickHandler}>Click meeeeee</button>
-      </header>
+      <Header />
+      <Main />
+      <Footer />
     </div>
   );
 }

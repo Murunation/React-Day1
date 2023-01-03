@@ -1,0 +1,54 @@
+header ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  width: 20%;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+header {
+  background-color: #dce2ee;
+  box-shadow: 1px 1px 5px #525864;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+}
+input {
+  height: 4vh;
+  width: 77%;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+}
+ul li a {
+  text-decoration: none;
+  color: #525864;
+  font-size: 14px;
+}
+.right-side {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+.right-side button {
+  height: 100%;
+  border: 1px solid rgb(58, 108, 201);
+  border-radius: 5px;
+}
+.right-side .sign {
+  background-color: rgb(58, 108, 201);
+  color: white;
+}
+
+img {
+  width: 180px;
+  height: 35px;
+}
