@@ -2,7 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import Header from "./component/Header";
 import Footer from "./component/Footer";
-import Main from "./component/main/Main";
+import Main from "./component/Main";
 function App() {
   // function clickHandler() {
   //   console.log("Hi"); ///function bichij bolno
